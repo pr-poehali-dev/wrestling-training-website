@@ -32,8 +32,8 @@ const Index = () => {
       color: 'bg-secondary'
     },
     {
-      title: 'Дзюдо',
-      description: 'Искусство бросковой техники и борьбы в партере. Развивает баланс и дисциплину.',
+      title: 'Грепплинг',
+      description: 'Борьба в партере без кимоно. Развивает гибкость, технику контроля и выносливость.',
       icon: 'Target',
       color: 'bg-accent'
     },
@@ -54,8 +54,8 @@ const Index = () => {
     },
     {
       name: 'Елена Соколова',
-      role: 'Тренер по дзюдо',
-      experience: '10 лет опыта, КМС по дзюдо, специализация на работе с детьми',
+      role: 'Тренер по грепплингу',
+      experience: '10 лет опыта, КМС по грепплингу, специализация на работе с детьми',
       image: 'https://cdn.poehali.dev/projects/1caccb44-81ca-4fc8-8732-103590549749/files/91a6c4c0-7c1e-4be6-8ab7-5597246fa6c7.jpg'
     },
     {
@@ -71,10 +71,8 @@ const Index = () => {
       <header className="fixed top-0 w-full bg-accent/95 backdrop-blur-sm z-50 shadow-lg">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="Dumbbell" className="text-white" size={28} />
-            </div>
-            <span className="text-2xl font-bold text-white">БОРЕЦ</span>
+            <img src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-29 190545.png" alt="Древлянин" className="w-12 h-12 object-contain" />
+            <span className="text-2xl font-bold text-white">ДРЕВЛЯНИН</span>
           </div>
           <nav className="hidden md:flex gap-8">
             <a href="#services" className="text-white hover:text-primary transition-colors">Услуги</a>
@@ -253,10 +251,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Icon name="Dumbbell" className="text-white" size={24} />
-              </div>
-              <span className="text-xl font-bold text-white">БОРЕЦ</span>
+              <img src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-29 190545.png" alt="Древлянин" className="w-10 h-10 object-contain" />
+              <span className="text-xl font-bold text-white">ДРЕВЛЯНИН</span>
             </div>
             <div className="flex gap-4">
               <a href="#" className="bg-primary/20 p-3 rounded-lg hover:bg-primary/30 transition-colors">
@@ -269,7 +265,7 @@ const Index = () => {
                 <Icon name="MessageCircle" size={20} className="text-white" />
               </a>
             </div>
-            <p className="text-white/70">© 2024 БОРЕЦ. Все права защищены</p>
+            <p className="text-white/70">© 2024 ДРЕВЛЯНИН. Все права защищены</p>
           </div>
         </div>
       </footer>
